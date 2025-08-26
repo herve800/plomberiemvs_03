@@ -814,3 +814,10 @@ figure.effect-ruby:hover img {
     flex: 0 0 24%; /* Set a fixed width for each item */
     margin: 0.5%; /* Add a small margin for spacing between items */
 }
+
+@media screen and (max-width: 991px) {
+    .tm-3-col-container {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
